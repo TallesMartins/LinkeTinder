@@ -1,6 +1,8 @@
 package com.acelerazg.linketinder.classes
 
-@groovy.transform.ToString
-class Candidato extends Pessoa{
+import groovy.transform.ToString
+
+@ToString
+class Candidato extends Pessoa implements ISkills{
     String cpf
 }

@@ -5,7 +5,7 @@ class Pessoa implements ISkills{
     List skills = []
 
     void adicionarSkill(EnumSkills skill){
-        this.skills = skill as List
+        this.skills << skill
         this.skills = this.skills.unique()
     }
     void removerSkill(EnumSkills skill){

@@ -1,6 +1,8 @@
 package com.acelerazg.linketinder.classes
 
-@groovy.transform.ToString
+import groovy.transform.ToString
+
+@ToString
 
 
 

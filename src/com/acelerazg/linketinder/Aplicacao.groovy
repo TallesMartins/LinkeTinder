@@ -3,7 +3,8 @@ package com.acelerazg.linketinder
 import com.acelerazg.linketinder.classes.Cadastro
 import com.acelerazg.linketinder.classes.Candidato
 import com.acelerazg.linketinder.classes.Empresa
-int option = 0
+import com.acelerazg.linketinder.classes.EnumSkills
+import com.acelerazg.linketinder.classes.Pessoa
 
 List<Empresa> empresas = []
 List<Candidato> candidatos = []
@@ -36,11 +37,8 @@ for (candidato in Cadastro.Candidatos()){
                     }
                 }
                 break
-
             case 2:
                 break
-
-
 }
 }
 
